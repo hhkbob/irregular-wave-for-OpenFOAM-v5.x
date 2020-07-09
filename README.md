@@ -5,3 +5,4 @@ The irregular wave codes for OpenFOAM v5.x is based on the Airy's theory. The ai
 
 // The first validation-- only one component (The Airy wave)
 wave length 300m, wave amplitude 2.5m, phase 0 
+![image](https://github.com/hhkbob/irregular-wave-for-OpenFOAM-v5.x/blob/master/RemeImage/Onecomponent.jpg)
