@@ -237,14 +237,10 @@ Foam::tmp<Foam::scalarField> Foam::waveModels::irregular::elevation
     int waveCount = L.size();
     for(int i=0; i<waveCount; i++)
     {
-        scalarField tmp(elevation_i(t, u, x, i));
-        forAll(eleAll, celli)
-        {
-           eleAll[celli] = eleAll[celli] + tmp[i];
-        }
+        eleAll += elevation_i(t,u,x,i);
     }
     //return eleAll;
-    return eleAll+0*amplitude(t)*cos(angle(t, u, x));
+    return eleAll;
 }
 
 Foam::tmp<Foam::scalarField> Foam::waveModels::irregular::elevation_i
