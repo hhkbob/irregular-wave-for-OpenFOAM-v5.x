@@ -1,6 +1,8 @@
 # irregular-wave-for-OpenFOAM-v5.x
 The irregular wave codes for OpenFOAM v5.x is based on the Airy's theory. The aim is achieved by combining multiple Airy waves together.
 
+The irregularWaveProperties should locate in the constant folder
+
 // All the examples are ran in the "tutorials/Multiphase/interFoam/laminar/wave"
 
 // The first validation-- only one component (The Airy wave)
