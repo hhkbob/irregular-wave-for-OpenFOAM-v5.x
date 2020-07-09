@@ -196,9 +196,7 @@ Foam::waveModels::irregular::irregular
      List<scalar> p_(dict2.subDict("phase").lookup("value"));
      Phase.swap(p_);
      
-     
-     
-     // test the length wether if the same
+     // test the length wether the same
      if( L.size() == A.size() )
      {
          if(L.size() ==Phase.size())
