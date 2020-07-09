@@ -1,0 +1,60 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       scalarField;
+    location    "constant";
+    object      irregularWaveProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// the gravity
+g
+{
+   value (0 0 -9.8);
+} 
+
+// the wave component length
+length
+{
+  value 
+  (
+        300 
+        250
+        100
+        340
+      
+   );
+}
+
+// the amplitude for component
+amplitude 
+{
+  value 
+   (
+          2.5 
+          3
+          1.5
+          3
+    );
+}
+
+// the phase for component
+phase
+{
+  value 
+  (
+       0 
+       0
+       0
+       0
+   );
+}
+
