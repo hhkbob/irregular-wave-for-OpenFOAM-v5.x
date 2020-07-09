@@ -15,7 +15,7 @@ wave length 300m, wave amplitude 2.5m, phase 0
 
 ![image](https://github.com/hhkbob/irregular-wave-for-OpenFOAM-v5.x/blob/master/RemeImage/componet4.jpg)
 
-// the 16 components of wave (mesh doest not change)
+// the 16 components of wave (mesh does not change)
 
 length = [300 250 300 350 100 150 400 420 320 360 423 380 311.2 341.3 281.7 265.9];
 
