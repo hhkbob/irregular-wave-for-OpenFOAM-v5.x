@@ -5,5 +5,6 @@ The validated waves (line with * is theory wave, the red solide line is simulati
 ![image](https://github.com/hhkbob/irregular-wave-for-OpenFOAM-v5.x/blob/master/RemeImage/validate.jpg)
 
 // All the examples are ran in the "tutorials/Multiphase/interFoam/laminar/wave"
+
 // The first validation-- only one component (The Airy wave)
 wave length 300m, wave amplitude 2.5m, phase 0 
