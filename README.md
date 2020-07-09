@@ -11,4 +11,4 @@ wave length 300m, wave amplitude 2.5m, phase 0
 
 // The four components of wave
    length = [300 250 300 350], amplitude = [2.5 2.0 1.5 3.0]
-![image]
+![image](https://github.com/hhkbob/irregular-wave-for-OpenFOAM-v5.x/blob/master/RemeImage/componet4.jpg)
